@@ -17,7 +17,10 @@ When you switchs virtual desktops your secondary screen will switch too, but sin
 
 ## Installation
 
-`git clone git@github.com:dromar56/kwin-fix-dual-screens.git`
+```
+git clone git@github.com:dromar56/kwin-fix-dual-screens.git
+cd kwin-fix-dual-screens
+```
 
 Install the kwin script
 
