@@ -20,7 +20,9 @@ When you switchs virtual desktops your secondary screen will switch too, but sin
 `git clone git@github.com:dromar56/kwin-fix-dual-screens.git`
 
 Install the kwin script
+
 `plasmapkg --type kwinscript -i kwin-fix-dual-screens`
 
 Optional : install the dbus service. If you don't do it the windows won't be shared beetwen activities.
+
 `cp dbus-set-activities.py ~/.kde4/Autostart/`
