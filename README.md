@@ -26,6 +26,8 @@ Install the kwin script
 
 `plasmapkg --type kwinscript -i kwin-fix-dual-screens`
 
-Optional : install the dbus service. If you don't do it the windows won't be shared beetwen activities.
+Optional : install the dbus service (you need python3). If you don't do it the windows won't be shared beetwen activities.
 
 `cp dbus-set-activities.py ~/.kde4/Autostart/`
+
+Afterwards, go to "System Settings -> Window Behavior -> KWin Scripts" and enable "Fixed Dual Screen", then restart your X session (not sure if needed).
